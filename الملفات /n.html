@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تم حظر الطلبات - NRDCheat • 𝙿𝙰𝙽𝙴𝙻</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --neon-pink: #ff2a6d;
+            --neon-blue: #05d9e8;
+            --dark-bg: #0d0221;
+        }
+        body {
+            background: var(--dark-bg);
+            color: white;
+            font-family: 'Tajawal', sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(255, 42, 109, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(5, 217, 232, 0.1) 0%, transparent 50%);
+        }
+        .block-card {
+            background: rgba(13, 2, 33, 0.9);
+            border: 2px solid var(--neon-pink);
+            border-radius: 15px;
+            box-shadow: 0 0 25px var(--neon-pink);
+            max-width: 600px;
+            width: 90%;
+            animation: pulse 2s infinite alternate;
+        }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 15px var(--neon-pink); }
+            100% { box-shadow: 0 0 30px var(--neon-pink); }
+        }
+        h1 {
+            color: var(--neon-pink);
+            text-shadow: 0 0 10px var(--neon-pink);
+        }
+        .ip-display {
+            font-family: monospace;
+            background: rgba(255, 42, 109, 0.2);
+            padding: 5px 10px;
+            border-radius: 5px;
+            direction: ltr;
+        }
+        .countdown {
+            font-size: 1.5rem;
+            color: var(--neon-blue);
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="block-card p-4 p-md-5 text-center animate__animated animate__fadeIn">
+            <div class="mb-4">
+                <i class="bi bi-shield-lock" style="font-size: 4rem; color: var(--neon-pink);"></i>
+            </div>
+            <h1 class="mb-3">تم حظر الطلبات المؤقت</h1>
+            <p class="lead">كسمك عايز تهجم ورينا نفسك يقحبه</p>
+            
+            <div class="my-4">
+                <p>عنوان IP الخاص بك: <span class="ip-display" id="ipDisplay"></span></p>
+            </div>
+            
+            <div class="countdown">
+                <p>الرجاء الانتظار: <span id="countdown">60</span> ثانية</p>
+            </div>
+            
+            <div class="mt-4">
+                <p>سيتم إعادة التوجيه تلقائياً بعد انتهاء الوقت</p>
+                <div class="spinner-border text-primary mt-3" role="status">
+                    <span class="visually-hidden">جاري التحميل...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const ip = urlParams.get('ip');
+        if(ip) {
+            document.getElementById('ipDisplay').textContent = ip;
+        }
+
+
+        let seconds = 60;
+        const countdownElement = document.getElementById('countdown');
+        
+        const timer = setInterval(() => {
+            seconds--;
+            countdownElement.textContent = seconds;
+            
+            if(seconds <= 0) {
+                clearInterval(timer);
+                window.location.href = '/'; 
+            }
+        }, 1000);
+
+        
+        window.addEventListener('beforeunload', function(e) {
+            if(seconds > 0) {
+                e.preventDefault();
+                e.returnValue = 'الرجاء الانتظار حتى انتهاء مدة الحظر';
+            }
+        });
+    </script>
+</body>
+</html>
