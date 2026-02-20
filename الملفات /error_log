@@ -1,0 +1,64 @@
+[24-Jun-2022 11:20:56 UTC] PHP Warning:  require(/home/linuxedu/public_html/FallenXonline/../app/Config/Paths.php): failed to open stream: No such file or directory in /home/linuxedu/public_html/FallenXonline/index.php on line 22
+[24-Jun-2022 11:20:56 UTC] PHP Warning:  require(/home/linuxedu/public_html/FallenXonline/../app/Config/Paths.php): failed to open stream: No such file or directory in /home/linuxedu/public_html/FallenXonline/index.php on line 22
+[24-Jun-2022 11:20:56 UTC] PHP Fatal error:  require(): Failed opening required '/home/linuxedu/public_html/FallenXonline/../app/Config/Paths.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/linuxedu/public_html/FallenXonline/index.php on line 22
+[19-Sep-2022 07:09:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php:85
+Stack trace:
+#0 /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php(117): Kint\Utils::composerGetExtras()
+#1 /home/fallenx1/public_html/vendor/kint-php/kint/init.php(54): Kint\Utils::composerSkipFlags()
+#2 /home/fallenx1/public_html/vendor/composer/autoload_real.php(69): require('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/vendor/composer/autoload_real.php(59): composerRequire4aec83fbb7957d041cf262f28c660f81('3917c79c5052b27...', '/home/fallenx1/...')
+#4 /home/fallenx1/public_html/vendor/autoload.php(7): ComposerAutoloaderInit4aec83fbb7957d041cf262f28c660f81::getLoader()
+#5 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(307): include('/home/fallenx1/...')
+#6 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(105): CodeIgniter\Autoloader\Autoloader->discoverComposerNamespaces()
+#7 /home/fal in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php on line 85
+[19-Sep-2022 07:09:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php:85
+Stack trace:
+#0 /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php(117): Kint\Utils::composerGetExtras()
+#1 /home/fallenx1/public_html/vendor/kint-php/kint/init.php(54): Kint\Utils::composerSkipFlags()
+#2 /home/fallenx1/public_html/vendor/composer/autoload_real.php(69): require('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/vendor/composer/autoload_real.php(59): composerRequire4aec83fbb7957d041cf262f28c660f81('3917c79c5052b27...', '/home/fallenx1/...')
+#4 /home/fallenx1/public_html/vendor/autoload.php(7): ComposerAutoloaderInit4aec83fbb7957d041cf262f28c660f81::getLoader()
+#5 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(307): include('/home/fallenx1/...')
+#6 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(105): CodeIgniter\Autoloader\Autoloader->discoverComposerNamespaces()
+#7 /home/fal in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php on line 85
+[19-Sep-2022 07:09:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php:85
+Stack trace:
+#0 /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php(117): Kint\Utils::composerGetExtras()
+#1 /home/fallenx1/public_html/vendor/kint-php/kint/init.php(54): Kint\Utils::composerSkipFlags()
+#2 /home/fallenx1/public_html/vendor/composer/autoload_real.php(69): require('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/vendor/composer/autoload_real.php(59): composerRequire4aec83fbb7957d041cf262f28c660f81('3917c79c5052b27...', '/home/fallenx1/...')
+#4 /home/fallenx1/public_html/vendor/autoload.php(7): ComposerAutoloaderInit4aec83fbb7957d041cf262f28c660f81::getLoader()
+#5 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(307): include('/home/fallenx1/...')
+#6 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(105): CodeIgniter\Autoloader\Autoloader->discoverComposerNamespaces()
+#7 /home/fal in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php on line 85
+[19-Sep-2022 07:09:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php:85
+Stack trace:
+#0 /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php(117): Kint\Utils::composerGetExtras()
+#1 /home/fallenx1/public_html/vendor/kint-php/kint/init.php(54): Kint\Utils::composerSkipFlags()
+#2 /home/fallenx1/public_html/vendor/composer/autoload_real.php(69): require('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/vendor/composer/autoload_real.php(59): composerRequire4aec83fbb7957d041cf262f28c660f81('3917c79c5052b27...', '/home/fallenx1/...')
+#4 /home/fallenx1/public_html/vendor/autoload.php(7): ComposerAutoloaderInit4aec83fbb7957d041cf262f28c660f81::getLoader()
+#5 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(307): include('/home/fallenx1/...')
+#6 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(105): CodeIgniter\Autoloader\Autoloader->discoverComposerNamespaces()
+#7 /home/fal in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php on line 85
+[19-Sep-2022 07:14:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php:85
+Stack trace:
+#0 /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php(117): Kint\Utils::composerGetExtras()
+#1 /home/fallenx1/public_html/vendor/kint-php/kint/init.php(54): Kint\Utils::composerSkipFlags()
+#2 /home/fallenx1/public_html/vendor/composer/autoload_real.php(69): require('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/vendor/composer/autoload_real.php(59): composerRequire4aec83fbb7957d041cf262f28c660f81('3917c79c5052b27...', '/home/fallenx1/...')
+#4 /home/fallenx1/public_html/vendor/autoload.php(7): ComposerAutoloaderInit4aec83fbb7957d041cf262f28c660f81::getLoader()
+#5 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(307): include('/home/fallenx1/...')
+#6 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(105): CodeIgniter\Autoloader\Autoloader->discoverComposerNamespaces()
+#7 /home/fal in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php on line 85
+[19-Sep-2022 07:14:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php:85
+Stack trace:
+#0 /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php(117): Kint\Utils::composerGetExtras()
+#1 /home/fallenx1/public_html/vendor/kint-php/kint/init.php(54): Kint\Utils::composerSkipFlags()
+#2 /home/fallenx1/public_html/vendor/composer/autoload_real.php(69): require('/home/fallenx1/...')
+#3 /home/fallenx1/public_html/vendor/composer/autoload_real.php(59): composerRequire4aec83fbb7957d041cf262f28c660f81('3917c79c5052b27...', '/home/fallenx1/...')
+#4 /home/fallenx1/public_html/vendor/autoload.php(7): ComposerAutoloaderInit4aec83fbb7957d041cf262f28c660f81::getLoader()
+#5 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(307): include('/home/fallenx1/...')
+#6 /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(105): CodeIgniter\Autoloader\Autoloader->discoverComposerNamespaces()
+#7 /home/fal in /home/fallenx1/public_html/vendor/kint-php/kint/src/Utils.php on line 85
+[19-Sep-2022 07:18:32 UTC] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/fallenx1/public_html/vendor/codeigniter4/framework/system/Common.php on line 65
